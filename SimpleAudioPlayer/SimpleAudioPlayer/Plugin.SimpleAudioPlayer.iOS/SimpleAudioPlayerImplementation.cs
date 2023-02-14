@@ -17,6 +17,12 @@ namespace Plugin.SimpleAudioPlayer
 
         AVAudioPlayer player;
 
+        public object RawPlayerObjectOSSpecific()
+        {
+            return player;
+        }
+
+
         ///<Summary>
         /// Length of audio in seconds
         ///</Summary>

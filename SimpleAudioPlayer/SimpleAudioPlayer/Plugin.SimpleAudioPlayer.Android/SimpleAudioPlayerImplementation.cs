@@ -18,6 +18,11 @@ namespace Plugin.SimpleAudioPlayer
 
         Android.Media.MediaPlayer player;
 
+        public object RawPlayerObjectOSSpecific()
+        {
+            return player;
+        }
+
         static int index = 0;
 
         ///<Summary>

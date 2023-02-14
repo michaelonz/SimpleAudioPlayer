@@ -13,6 +13,8 @@ namespace Plugin.SimpleAudioPlayer
         ///</Summary>
         event EventHandler PlaybackEnded;
 
+        object RawPlayerObjectOSSpecific();
+
         ///<Summary>
         /// Length of audio in seconds
         ///</Summary>
